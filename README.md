@@ -1,6 +1,6 @@
 # pyweb
 
-A minimal FastAPI web service built with modern Python tooling.
+A minimal FastAPI-based production-ready web service boilerplate/template built with modern Python tooling.
 
 ## 🚀 Technology Stack
 
