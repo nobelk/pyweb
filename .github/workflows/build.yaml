@@ -13,11 +13,18 @@ jobs:
         with:
           fetch-depth: 2
 
+      - name: Install UV
+        uses: astral-sh/setup-uv@v5
+        with:
+          enable-cache: true
+
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13.4'
 
       - name: Install dependencies
-        run: pip install pytest pytest-cov fastapi
+        run: uv sync --group dev
 
       - name: Run tests
         run: pytest --cov --cov-branch --cov-report=xml
