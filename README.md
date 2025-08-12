@@ -1,5 +1,8 @@
 # pyweb
 
+[![Build and Test](https://github.com/nobelk/pyweb/actions/workflows/build.yaml/badge.svg)](https://github.com/nobelk/pyweb/actions/workflows/build.yaml)
+[![codecov](https://codecov.io/gh/Nobel.Khandaker/pyweb/branch/main/graph/badge.svg)](https://codecov.io/gh/Nobel.Khandaker/pyweb)
+
 A minimal FastAPI-based production-ready web service boilerplate/template built with modern Python tooling.
 
 ## 🚀 Technology Stack
