@@ -1,7 +1,8 @@
 # pyweb
 
 [![Build and Test](https://github.com/nobelk/pyweb/actions/workflows/build.yaml/badge.svg)](https://github.com/nobelk/pyweb/actions/workflows/build.yaml)
-[![codecov](https://codecov.io/github/nobelk/pyweb/graph/badge.svg?token=VYIACSTY19)](https://codecov.io/github/nobelk/pyweb)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![codecov](https://codecov.io/gh/nobelk/pyweb/branch/main/graph/badge.svg?token=VYIACSTY19)](https://codecov.io/gh/nobelk/pyweb)
 
 A minimal FastAPI-based production-ready web service boilerplate/template built with modern Python tooling.
 
@@ -46,7 +47,7 @@ A minimal FastAPI-based production-ready web service boilerplate/template built 
 ### Development Server (with hot reload)
 ```bash
 # FastAPI development server with auto-reload
-uv run fastapi dev --app app src/main.py
+uv run fastapi dev src/main.py
 ```
 
 ### Production Server
